@@ -1,13 +1,13 @@
 #include <Arduino.h>
 
-#define BLYNK_AUTH_TOKEN "7ZJpao40OD9-0SLuCUrDFU-k60wPYaF4"
+#define BLYNK_AUTH_TOKEN "Your auth token"
 #define BLYNK_TEMPLATE_NAME "cloud weather station "
-#define BLYNK_TEMPLATE_ID "TMPL3P9uhu61K"
+#define BLYNK_TEMPLATE_ID "Your template id"
 #include <BlynkSimpleEsp32.h>
 #include <DHT.h>
 #include <WiFi.h>
-const char* ssid = "realme GT 6";
-const char* pass="q5y6j9np";
+const char* ssid = "your_ssid";
+const char* pass="your_pass";
 
 #define dhttype DHT11
 #define dhtpin 4
